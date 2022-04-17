@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.header{
+    background-color: #F39C12;
+    height: 96px;
+}
+
+.header img{
+    width: 160px;
+    height: 44px;
+    padding-left: 32px;
+    padding-top: 24px;
+}
+
+.header h4{
+    display: inline-block;
+    float: right;
+    padding-right: 32px;
+    padding-top: 38px;
+    color: #FFFFFF;
+}
+
+.content{
+   
+    max-width: 600px;
+    padding: 10px;
+    background-image: url("email-bg.png");
+    
+}
+
+.question{
+    width: 45%;
+    display: inline-block;
+    padding: 1rem 1rem;
+     vertical-align: middle;
+
+}
+
+.question img{
+    width:300px;
+}
+
+.hero-title{
+    width: 45%;
+    font-size: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+.button{
+    
+    margin-bottom:64px ;
+    margin-left: 33%;
+}
+
+
+.button-1 {
+  background-color: #F39C12;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  height: 52px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #FFB135;
+}
+
+.footer{
+    background-color: #F39C12;
+    height: 64px;
+    max-width: 600px;
+    
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer p{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 8px;
+    
+}
+
+
+
+.footer-content{
+    padding-left: 17%;
+    padding-top: 16px;
+}
+
+.phone{
+    width: 45%;
+    color: #FFFFFF;
+    display: inline-block;
+
+}
+
+.email{
+    display: inline-block;
+    width: 45%;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .question { width: 100%; }
+    .hero-title{ font-size: 20px; width: 100%;}
+    .phone {width: 100%;}
+    .email{width: 100%;}
+    .footer-content{padding-left: 16px;}
+    .button{margin-left: 22%; padding-top: 24px;}
+    .header h4 {display: block; float: left; padding-left: 32px;}
+    .header{height: 128px;}
+  }
